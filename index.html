@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKESH SHEORAN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ebe3a31bd4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/AKESH (1).png" class="logo">                   <!--to add logo -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#porfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p> Software Developer</p>
+                <h1>Hi,I'm <span>Akesh Kumar</span>  <br> From India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------------------about--------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="" alt=""><!--image to be entered-->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum minus eaque nemo, veniam ducimus quasi sit vero tenetur ad! Cupiditate repellendus quis similique minima, sapiente sed? Deserunt consectetur vel repudiandae.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>web development</span><br>Web app Devolopment</li>
+                        <li><span>App development</span><br>Building Android/ios apps</li>
+                        <li><span>AI/ML</span><br>Use AI/ML to solve real life problem</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience" >
+                    <ul>
+                        <li><span>June 2022-July 2022</span><br>Campus Ambassador For IIM Bangalore, International Entrepreneurship Summit</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education" >
+                    <ul>
+                        <li><span>2021-2025</span><br>BTECH from TIET Patiala</li>
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  --------- ---------- services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, pariatur! Maxime ut tempora a rem accusantium ex provident fuga quos! Quas fugit eaque laborum modi animi. Labore velit officia quae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, pariatur! Maxime ut tempora a rem accusantium ex provident fuga quos! Quas fugit eaque laborum modi animi. Labore velit officia quae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-robot"></i>
+                    <h2>AI/ML</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, pariatur! Maxime ut tempora a rem accusantium ex provident fuga quos! Quas fugit eaque laborum modi animi. Labore velit officia quae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------- portfolio------------------------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <h3>to be updated soon</h3>
+            <div class="work-list">
+                <div class="work">
+                    <img src=" "><!---image of work to be added-->
+                    <div class="layer">
+                        
+                        <!------- description related to project and links and icons-->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src=" "> <!---image of work to be added-->
+                    <div class="layer">
+                         <!------- description related to project and links and icons-->
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src=" "> <!---image of work to be added-->
+                    <div class="layer">
+                         <!------- description related to project and links and icons-->
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-- -----------------------------------contact------------------------ -->
+    <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="subtitle">Contact Me</h1> 
+              <p><i class="fa-solid fa-envelope"></i>sheoranakesh@gmail.com</p> 
+              <p><i class="fa-solid fa-mobile"></i>9466338973</p>
+              <div class="socialicons">
+                <a href="https://www.instagram.com/akesh_sheoran/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/akesh-kumar-8bbb33220"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="images/Akesh kumar'resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email"required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                <span id="msg">
+
+                </span>
+                </div>
+
+            
+          </div>  
+        </div>
+        <div class="copyright">
+            <p>Copyright © Akesh Sheoran</p>
+        </div>
+    </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx4pgWBhn_M1YIO2tO5SLKHux5_xDtvsJKqWlZJZlhYF3h7I5ddV8FlUH5TYG8VZk4E/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(
+                function()
+                {
+                    msg.innerHTML=""
+                    
+                },5000
+            )
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
